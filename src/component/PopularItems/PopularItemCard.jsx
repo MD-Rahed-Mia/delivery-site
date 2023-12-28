@@ -6,7 +6,7 @@ export default function PopularItemCard(props) {
       <div className="pi-card" pr_id={props.pr_id}>
         <img src={props.img} alt="" />
         <div className="pi-card__desc">
-          <h2>{props.title}</h2>
+          <h2 className="pi-card__title">{props.title}</h2>
           <div className="pr-reveiw">
             <h1>&#2547;{props.price}</h1>
             <div className="product-review">
@@ -15,9 +15,7 @@ export default function PopularItemCard(props) {
               <IoStar fontSize="20px" color="orangered" />
               <IoStar fontSize="20px" color="orangered" />
               <IoStar fontSize="20px" color="orangered" />
-              <div className="rating-count">
-                4.5/5.
-              </div>
+              <div className="rating-count">4.5/5.</div>
             </div>
           </div>
           <p>{props.desc}</p>
