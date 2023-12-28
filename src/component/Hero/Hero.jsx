@@ -11,7 +11,7 @@ export default function Hero() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quos qui, labore iure modi facere necessitatibus dicta ipsa? Fugiat <br /> beatae asperiores pariatur at. Asperiores repellat, sapiente et eum dolor <br /> praesentium eveniet enim quos maiores nesciunt corrupti.
 
               </p>
-              <button className="explore-more__btn fade">explore more</button>
+              <button className="explore-more__btn">explore more</button>
             </div>
         </div>
         <div className="hero-right ">

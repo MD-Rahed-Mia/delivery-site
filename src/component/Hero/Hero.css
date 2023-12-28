@@ -47,7 +47,7 @@
   padding: 12px 20px;
   border: none;
   border-radius: 3px;
-  background: #fd7e14;
+  background: var(--pr-btn);
   color: white;
   font-size: 1.4rem;
   margin-top: 1.5rem;
