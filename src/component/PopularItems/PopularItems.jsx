@@ -9,7 +9,13 @@ export default function OrderNow() {
       <div className="popular-items">
         <h1 className="pf-heading">Popular Foods</h1>
         <div className="popular-items__cards">
-          <PopularItemCard img={Biriyani} title="Hyrabadi Biriyani with special masala." price="250" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate tempora blanditiis eaque nesciunt illum."/>
+          <PopularItemCard img={Biriyani} title="Hyrabadi Biriyani with special masala." price="250" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate tempora blanditiis eaque nesciunt illum." pr_id="1"/>
+          <PopularItemCard img={Biriyani} title="Hyrabadi Biriyani with special masala." price="250" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate tempora blanditiis eaque nesciunt illum." pr_id="1"/>
+          <PopularItemCard img={Biriyani} title="Hyrabadi Biriyani with special masala." price="250" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate tempora blanditiis eaque nesciunt illum." pr_id="1"/>
+          <PopularItemCard img={Biriyani} title="Hyrabadi Biriyani with special masala." price="250" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate tempora blanditiis eaque nesciunt illum." pr_id="1"/>
+          <PopularItemCard img={Biriyani} title="Hyrabadi Biriyani with special masala." price="250" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate tempora blanditiis eaque nesciunt illum." pr_id="1"/>
+          <PopularItemCard img={Biriyani} title="Hyrabadi Biriyani with special masala." price="250" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate tempora blanditiis eaque nesciunt illum." pr_id="1"/>
+
         </div>
       </div>
     </>

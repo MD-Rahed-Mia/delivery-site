@@ -1,7 +1,7 @@
 .popular-items {
   width: 100%;
   min-height: 50vh;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 2rem;
 }
 
@@ -10,6 +10,13 @@
   font-size: 4rem;
   color: var(--pr-color);
   margin-bottom: 2rem;
+}
+
+.popular-items__cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .pi-card {
@@ -59,4 +66,17 @@
   background-color: var(--pr-btn);
   color: white;
   cursor: pointer;
+}
+
+.pr-reveiw {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-review{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
