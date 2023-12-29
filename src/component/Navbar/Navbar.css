@@ -35,7 +35,7 @@ nav {
   color: var(--pr-color);
 }
 
-.search input{
+.search-container {
   min-width: 400px;
   padding: 10px 15px;
   min-height: 45px;
@@ -43,4 +43,15 @@ nav {
   border: 1px solid var(--pr-color);
   border-radius: 50px;
   color: var(--pr-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.search input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
 }

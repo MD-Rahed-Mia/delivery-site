@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./component/Navbar/Navbar";
 import Hero from "./component/Hero/Hero.jsx";
 import OrderNow from "./component/PopularItems/PopularItems.jsx";
+import RecomendFU from "./component/Recomend for you/RecomendFU.jsx";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       <OrderNow />
+
+      <RecomendFU />
     </>
   );
 }

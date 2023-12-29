@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
 import "./Navbar.css";
+import { IoSearch } from "react-icons/io5";
 
 const Search = () => {
   const [searchValue, setSearchValue] = useState("");
 
   function handleSearch(event) {
     setSearchValue(event.target.value);
-
-    console.log(searchValue);
   }
 
   useEffect(() => {
@@ -33,6 +32,7 @@ export default function Navbar() {
 
         <div className="search-container">
           <Search />
+          <IoSearch />
         </div>
         <div className="menu-container">
           <ul>

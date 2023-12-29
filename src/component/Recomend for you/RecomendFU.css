@@ -1,0 +1,100 @@
+.rfu-header {
+  text-align: center;
+}
+.rfu-tabs ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.rfu-tabs ul li {
+  border-bottom: 3px solid black;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+.rfu-tabs ul li:hover {
+  border-bottom-color: #00daff;
+  color: #00daff;
+  font-weight: bold;
+}
+
+.rfu-tabs ul li.active {
+  border-bottom-color: #00daff;
+  color: #00daff;
+  font-weight: bold;
+}
+
+.rfu-cards {
+  width: 1660px;
+  margin: 2rem auto;
+  gap: 1rem;
+  row-gap: 3rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rfu-card {
+  width: 300px;
+  min-height: 400px;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.rfu-card img {
+  width: 100%;
+}
+.rfu-card__btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: space-evenly
+}
+.rfu-card__btn button {
+  padding: 10px;
+  font-size: 1.2rem;
+  background: var(--pr-btn);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.rfu-card__title {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.rfu-card__Q {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.rfu-card__Q p {
+  font-size: 1.5rem;
+  color: var(--pr-btn);
+}
+
+.rfu-card__Q button {
+  height: 40px;
+  width: 40px;
+  border: 3px solid var(--pr-btn);
+  background: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--pr-btn);
+}
