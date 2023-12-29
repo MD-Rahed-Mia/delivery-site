@@ -1,6 +1,21 @@
+import { useState } from "react";
 import { IoStar } from "react-icons/io5";
 
 export default function PopularItemCard(props) {
+  let [orderQuantity, setOrderQuanity] = useState(1);
+
+  function increaseOrderQ() {
+    setOrderQuanity((orderQuantity = orderQuantity + 1));
+    console.log(orderQuantity);
+  }
+
+  function decreaseOrderQ(e) {
+    if (orderQuantity == 1) {
+      e.target.disabled = true;
+    }
+    setOrderQuanity((orderQuantity = orderQuantity - 1));
+  }
+
   return (
     <>
       <div className="pi-card" pr_id={props.pr_id}>
@@ -21,7 +36,15 @@ export default function PopularItemCard(props) {
           <p>{props.desc}</p>
         </div>
         <div className="pi-card__overlay">
-          <button className="pi-card__btn">Order now</button>
+          <div className="pi-overlay__btn">
+            <div className="pi-quantity">
+              <button onClick={decreaseOrderQ}>-</button>
+              <h1 className="pi-q__num">{orderQuantity}</h1>
+              <button onClick={increaseOrderQ}>+</button>
+            </div>
+            <button className="pi-card__btn">order now</button>
+            <button className="pi-card__btn">add to card</button>
+          </div>
         </div>
       </div>
     </>

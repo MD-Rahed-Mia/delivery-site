@@ -57,16 +57,6 @@
   top: 0;
 }
 
-.pi-card__btn {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  background-color: var(--pr-btn);
-  color: white;
-  cursor: pointer;
-}
-
 .pi-card__title {
   font-weight: 400;
 }
@@ -123,4 +113,43 @@
   background: var(--pr-color);
   color: white;
   border: 2px solid var(--pr-color);
+}
+
+.pi-overlay__btn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pi-quantity {
+  display: flex;
+  gap: 1rem;
+  min-width: 150px;
+  justify-content: space-between;
+}
+.pi-quantity button {
+  min-width: 40px;
+  color: white;
+  background: var(--pr-btn);
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.pi-q__num {
+  color: white;
+  font-size: 2rem;
+}
+
+.pi-card__btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: var(--pr-btn);
+  color: white;
+  cursor: pointer;
+  min-width: 150px;
 }
